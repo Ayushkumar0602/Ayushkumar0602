@@ -66,45 +66,6 @@ philosophy: "Accountability × Innovation × Rigorous growth — concept to prod
 
 > *A next-generation, Jarvis-class AI operating system with autonomous agents, ego-aware memory, deep desktop integration, and self-evolving capabilities. Not a chatbot — a cognitive layer for your machine.*
 
-```mermaid
-flowchart TB
-
-    USER["👤 User"]
-
-    IOS["📱 iOS Client<br/>Swift MVVM"]
-    DAEMON["🖥️ Desktop Runtime<br/>IPC • Tools • Memory"]
-
-    USER --> IOS
-    IOS <--> DAEMON
-
-    ORCH["⚡ Agentic Orchestrator<br/>Intent → Route → Plan → Execute"]
-
-    DAEMON --> ORCH
-
-    DOMAINS["💼 Business<br/>💻 Code<br/>🔬 Research<br/>🎨 Creative<br/>👤 Personal"]
-
-    ORCH --> DOMAINS
-
-    CORTEX["🧠 Autonomous Cortex"]
-
-    GAP["Gap Detector"]
-    SKILL["Skill Forge"]
-    SANDBOX["Sandbox Validation"]
-    GIT["Git Harvester"]
-
-    CORTEX --> GAP
-    GAP --> SKILL
-    SKILL --> SANDBOX
-    SANDBOX --> GIT
-
-    GRAPH["🌌 Ego-Aware Knowledge Graph<br/>Identity • Skills • Projects<br/>Episodic • Semantic • Procedural • Time"]
-
-    ORCH <--> GRAPH
-    CORTEX <--> GRAPH
-
-    ORCH <--> CORTEX
-```
-
 ### Core Components
 
 | Component            | Responsibility                                                                         |
@@ -188,67 +149,6 @@ Code Indexing/RAG   ████████░░░░░░
 
 ---
 
-## 🌟 Featured Projects
-
-### 1 · LeetCode Orchestration Platform
-> *Full-stack AI coding interview prep — 1,800+ problems, mock interviews, system design*
-
-**Tech:** `React` `Node.js` `Firebase` `Docker` `Gemini AI` `SSE`
-
-- Sandboxed Docker code execution in Python, C++, Java, C, JS with real-time streaming via Server-Sent Events
-- Gemini AI integration for live code analysis and automated conversational interviewing
-- 1,800+ problem coverage with full mock interview simulation
-
----
-
-### 2 · AI Full-Stack Coding Agent *(Beta)*
-> *Natural language → deployable full-stack web apps. 70% reduction in dev time.*
-
-**Tech:** `Node.js` `Firebase` `AI Agents`
-
-- Automated backend generation with role-based validation and test pipelines — 60% reduction in manual QA
-- End-to-end pipeline from intent parsing to production-ready code
-
----
-
-### 3 · Codebase Indexing & Retrieval for AI
-> *Semantic search pipelines for large codebase comprehension*
-
-**Tech:** `Python` `Vector Embeddings` `Semantic Search`
-
-- Modular pipeline architecture with intelligent context boundaries (not arbitrary chunking)
-- 40% improvement in AI-generated response accuracy via context-aware snippet retrieval
-
----
-
-### 4 · JPMC Transaction Microservice *(Forage)*
-> *Real-time event-driven transaction ingestion and balance validation*
-
-**Tech:** `Java` `Spring Boot` `Apache Kafka` `H2` `Maven` `Testcontainers`
-
-- Kafka-powered event-driven workflow with full JUnit + Testcontainers test suite
-
----
-
-### 5 · Whizan AI *(Glitch MUJ)*
-> *AI-powered student productivity platform — 1,000+ users*
-
-**Tech:** `Architecture` `Scalable Software Design` `Cross-functional Leadership`
-
-- Led end-to-end development; managed dev, UI/UX, and product teams
-- Clean architecture + LLD principles; 30% improvement in onboarding speed
-
----
-
-
-## ⚡ Current Focus
-
-```
-[ SHIPPING ]  Project Summer — Cortex Engine + Unified HUD Overlay (June 2026)
-[ ACTIVE   ]  Whizan AI — leading cross-functional engineering team
-[ LEARNING ]  Federated learning · advanced multimodal AI systems
-[ EXPLORING]  Phase 2: cross-platform Summer (Windows, Linux) + mobile companion
-```
 
 ---
 
