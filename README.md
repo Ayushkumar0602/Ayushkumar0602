@@ -13,6 +13,30 @@
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&pause=800&color=10B981&center=true&vCenter=true&width=700&lines=Architecting+the+Future+of+AI+Personal+Intelligence.;Project+Summer+%E2%80%94+A+Jarvis-Class+Agentic+OS.;500%2B+DSA+problems+conquered.;Full-Stack+%7C+AI+Systems+%7C+Agentic+Orchestration." alt="Typing SVG" />
 </a>
 
+
+## 
+
+<div align="center">
+
+<a href="https://github.com/Ayushkumar0602">
+  <img src="https://ghchart.rshah.org/10B981/Ayushkumar0602" alt="Contribution Graph" width="90%" />
+</a>
+
+<img src="https://github-readme-stats.vercel.app/api?username=Ayushkumar0602&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=10B981&icon_color=10B981&text_color=c9d1d9" width="48%" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Ayushkumar0602&theme=tokyonight&hide_border=true&background=0D1117&ring=10B981&fire=10B981&currStreakNum=10B981&sideLabels=c9d1d9&dates=c9d1d9" width="48%" />
+
+<br/><br/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ayushkumar0602&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=10B981&text_color=c9d1d9" width="40%" />
+
+<br/><br/>
+
+
+
+</div>
+
+---
+
 <br/>
 
 [![Email](https://img.shields.io/badge/aj0892829122%40gmail.com-0a0a0a?style=flat-square&logo=gmail&logoColor=10B981)](mailto:aj0892829122@gmail.com)
@@ -38,40 +62,63 @@ philosophy: "Accountability × Innovation × Rigorous growth — concept to prod
 ```
 
 ---
-
 ## ☀️ PROJECT SUMMER — Active Build
 
-> *A next-gen, Jarvis-class personal AI assistant with autonomous multi-agent orchestration, ego-aware memory intelligence, and deep OS integration. Not a chatbot — a cognitive layer for your machine.*
+> *A next-generation, Jarvis-class AI operating system with autonomous agents, ego-aware memory, deep desktop integration, and self-evolving capabilities. Not a chatbot — a cognitive layer for your machine.*
 
-<div align="center">
+```mermaid
+flowchart TB
 
+    USER["👤 User"]
+
+    IOS["📱 iOS Client<br/>Swift MVVM"]
+    DAEMON["🖥️ Desktop Runtime<br/>IPC • Tools • Memory"]
+
+    USER --> IOS
+    IOS <--> DAEMON
+
+    ORCH["⚡ Agentic Orchestrator<br/>Intent → Route → Plan → Execute"]
+
+    DAEMON --> ORCH
+
+    DOMAINS["💼 Business<br/>💻 Code<br/>🔬 Research<br/>🎨 Creative<br/>👤 Personal"]
+
+    ORCH --> DOMAINS
+
+    CORTEX["🧠 Autonomous Cortex"]
+
+    GAP["Gap Detector"]
+    SKILL["Skill Forge"]
+    SANDBOX["Sandbox Validation"]
+    GIT["Git Harvester"]
+
+    CORTEX --> GAP
+    GAP --> SKILL
+    SKILL --> SANDBOX
+    SANDBOX --> GIT
+
+    GRAPH["🌌 Ego-Aware Knowledge Graph<br/>Identity • Skills • Projects<br/>Episodic • Semantic • Procedural • Time"]
+
+    ORCH <--> GRAPH
+    CORTEX <--> GRAPH
+
+    ORCH <--> CORTEX
 ```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                     SUMMER — SYSTEM ARCHITECTURE v2026                      │
-├───────────────┬──────────────────────────────────┬──────────────────────────┤
-│  iOS CLIENT   │         ELECTRON CORE            │    AUTONOMOUS CORTEX     │
-│  Swift MVVM   │                                  │                          │
-│  ───────────  │  ┌─────────────────────────────┐ │  ┌────────────────────┐  │
-│  ChatView     │  │    AGENTIC ORCHESTRATOR      │ │  │   GAP DETECTOR     │  │
-│  VoiceOrb     │  │                             │ │  │   SKILL FORGE      │  │
-│  MemoryGraph  │  │  ┌────────┐  ┌──────────┐  │ │  │   SANDBOX GATE     │  │
-│               │  │  │ Intent │  │  Router  │  │ │  │   STAGING REGISTRY │  │
-│  WebSocket    │  │  │ Engine │→ │ (Multi-  │  │ │  │   GIT HARVESTER    │  │
-│  ───────────  │  │  └────────┘  │ Criteria)│  │ │  └────────────────────┘  │
-│               │  │              └────┬─────┘  │ │                          │
-│  macOS DAEMON │  │                   ↓         │ │   Wakes on idle.         │
-│  ───────────  │  │  [ Code · Research · Biz ·  │ │   Mines session logs.    │
-│  IPC Bridge   │  │    Creative · Personal ]     │ │   Self-evolves skills.   │
-│  Tool Exec    │  │                             │ │   Opens GitHub PRs.      │
-│  Memory Eng.  │  │  Think → Plan → Act → Reflect│ │                          │
-│               │  └─────────────────────────────┘ │                          │
-├───────────────┴──────────────────────────────────┴──────────────────────────┤
-│                     EGO-AWARE KNOWLEDGE GRAPH  (pgvector + embeddings)      │
-│    Identity · Skills · Projects · Episodic · Semantic · Procedural · Time   │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
 
-</div>
+### Core Components
+
+| Component            | Responsibility                                                                         |
+| -------------------- | -------------------------------------------------------------------------------------- |
+| Agentic Orchestrator | Understands goals, plans actions, coordinates execution                                |
+| Domain Agents        | Specialized reasoning for coding, research, business, creative, and personal workflows |
+| Knowledge Graph      | Persistent memory with semantic and episodic recall                                    |
+| Autonomous Cortex    | Detects capability gaps and evolves the system                                         |
+| Skill Forge          | Generates new tools, workflows, and capabilities                                       |
+| Sandbox Validation   | Safely tests generated functionality                                                   |
+| Git Harvester        | Promotes validated improvements through Git workflows                                  |
+
+**Stack:** `Electron` • `SwiftUI` • `Node.js` • `Gemini` • `PostgreSQL` • `pgvector` • `Supabase` • `Playwright` • `WebSockets`
+
 
 ### What makes Summer different
 
@@ -193,26 +240,6 @@ Code Indexing/RAG   ████████░░░░░░
 
 ---
 
-## 📊 Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Ayushkumar0602&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=10B981&icon_color=10B981&text_color=c9d1d9" width="48%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Ayushkumar0602&theme=tokyonight&hide_border=true&background=0D1117&ring=10B981&fire=10B981&currStreakNum=10B981&sideLabels=c9d1d9&dates=c9d1d9" width="48%" />
-
-<br/><br/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ayushkumar0602&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=10B981&text_color=c9d1d9" width="40%" />
-
-<br/><br/>
-
-<a href="https://github.com/Ayushkumar0602">
-  <img src="https://ghchart.rshah.org/10B981/Ayushkumar0602" alt="Contribution Graph" width="90%" />
-</a>
-
-</div>
-
----
 
 ## ⚡ Current Focus
 
