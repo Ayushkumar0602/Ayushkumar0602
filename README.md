@@ -34,7 +34,6 @@
 name:       Ayush Kumar
 role:       Software Engineering Intern · Technical Program Owner
 education:  B.Tech CSE @ Manipal University Jaipur  [2024 → 2028]
-current:    SWE Intern @ Glitch MUJ (Whizan) — AI student productivity platform · 1,000+ users
 building:   ☀️  Project Summer — Jarvis-class agentic AI operating system
 stack:      [ Full-Stack · AI Systems · Agentic Orchestration · Low-Level Design ]
 dsa:        500+ problems solved · LeetCode & competitive platforms
